@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <nav class = "navigation container">
-        <div class = "nav-brand">I'm a developer</div>
+        <!-- <div class = "nav-brand">I'm a developer</div> -->
             <ul class = "list-non-bullet nav-pills">
                 <li class = "list-item-inline">
-                    <a href="" class="link link-active">home</a>
+                    <a href="" class="link link-active">Home</a>
                 </li>
                 <li class = "list-item-inline">
                     <a href="/projects.html" class="link ">Projects</a>
@@ -22,29 +23,40 @@
                     <a href="/blogs.html" class="link ">Blogs</a>
                 </li>
             </ul>
-    </nav>
-
-    <header class = "hero">
-        <img class = "hero-image" src="/images/hero-image.svg" />
-        <h1 class = "hero-heading">kL1q <span class="heading-inverted">the web developer</span></h1>
-    </header>
+            <header class = "hero">
+                <img class = "hero-image" src="/images/hero-image.svg" />
+                <h1 class = "hero-heading">Hi! I'm Nikhil, a <span class="heading-inverted">web developer</span></h1>
+            </header>
+        </nav>
 
     <section class=" section ow">
         <div class="container-center">
             <h3>Technologies</h3>
-            <p>This will have off-white background Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum delectus molestiae eos veritatis illo quas 
-                quaerat sit aliquam dolorem. Vel at deleniti blanditiis, quidem ipsa placeat aliquam 
-                reprehenderit qui nisi.</p>
+            <p>I'm familiar with the technologies listed below and enjoy learning new things, as all developers should be. 
+            </p>
+            <ul class = "list-non-bullet nav-pills margin-md">
+                <li class = "list-item-inline">
+                    <i class="fa-brands fa-html5 fa-5x section-icons"></i>                
+                </li>
+                <li class = "list-item-inline" >
+                    <i class="fa-brands fa-css3-alt fa-5x section-icons"></i>                
+                </li>
+                <li class = "list-item-inline">
+                    <i class="fa-brands fa-js fa-5x section-icons"></i>                
+                </li>
+                <li class = "list-item-inline">
+                    <i class="fa-brands fa-node fa-5x section-icons"></i>                
+                </li>
+            </ul>
         </div>
     </section>
 
     <section class=" section">
         <div class="container-center">
             <h3>Projects</h3>
-            <p>This will have off-white background Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum delectus molestiae eos veritatis illo quas 
-                quaerat sit aliquam dolorem. Vel at deleniti blanditiis, quidem ipsa placeat aliquam 
-                reprehenderit qui nisi.</p>
-                <a href = "/" class="link link-primary">See Projects</a>
+            <p>Here you can see all my projects which I have developed. 
+                Do go and get the live demo of the projects</p>
+                <a href = "/blogs.html" class="link link-primary section-link">See Projects</a>
         </div>
     </section>
 
@@ -54,17 +66,27 @@
             <p>This will have off-white background Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum delectus molestiae eos veritatis illo quas 
                 quaerat sit aliquam dolorem. Vel at deleniti blanditiis, quidem ipsa placeat aliquam 
                 reprehenderit qui nisi.</p>
-                <a href = "/" class="link link-primary">Read Blogs</a>
+                <a href = "/projects.html" class="link link-primary section-link">Read Blogs</a>
             </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-header">Connect with me !!</div>
+        <div class="footer-header">Connect with me!!</div>
             <ul class = "social-links list-non-bullet">
-                <li class="list-item-inline"><a href = "/" class = "link">Social 1</a></li>
-                <li class="list-item-inline"><a href = "/" class = "link">Social 2</a></li>
-                <li class="list-item-inline"><a href = "/" class = "link">Social 3</a></li>
+                <li class="list-item-inline"><a target="_blank" href = "https://github.com/nikcorleone13" class = "link">
+                    <i class="fa-brands fa-github fa-2x social-icons"></i>
+                </a></li>
+                <li class="list-item-inline"><a  target="_blank" href = "https://www.linkedin.com/in/nikhil-kumar-4b484b198?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxNNLLg2qTFq%2B5AlUpYnSEg%3D%3D" class = "link">
+                    <i class="fa-brands fa-linkedin fa-2x social-icons"></i>
+                </a></li>
+                <li class="list-item-inline"><a target="_blank" href = "https://instagram.com/nikcorleone13/" class = "link">
+                    <i class="fa-brands fa-instagram fa-2x social-icons"></i>
+                </a></li>
             </ul>
+            <div class="message">
+                made with <span><i class="fa fa-heart" style="font-size:18px"></i>
+                </span> by Nikhil
+            </div>
     </footer>
 </body>
 </html>
