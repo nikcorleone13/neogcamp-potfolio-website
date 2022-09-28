@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #000000e7;
-    --primary-color-2: #1c1f1f;
+    --primary-color-2: #1a1d1d;
     --secondary-color: #0ae9c0;
     --dark-grey: #6b7280;
     --off-white:#f3f4f6;
@@ -204,6 +204,9 @@ a{
 .project-date{
     font-size: 1rem;
     color: var(--off-white);
+}
+.space-container{
+    margin: 2rem auto;
 }
 
 /*************blogs page *************/
