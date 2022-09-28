@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <title>Blogs</title>
 
@@ -12,23 +14,48 @@
 <body>
 
     <nav class = "navigation container">
-        <div class = "nav-brand">I'm a developer</div>
+        <!-- <div class = "nav-brand">I'm a developer</div> -->
             <ul class = "list-non-bullet nav-pills">
                 <li class = "list-item-inline">
-                    <a href="/" class="link ">Home</a>
+                    <a href="/index.html" class="link ">Home</a>
                 </li>
                 <li class = "list-item-inline">
-                    <a href="/projects.html" class="link ">Projects</a>
+                    <a href="/projects.html" class="link link-active">Projects</a>
                 </li>
                 <li class = "list-item-inline">
-                    <a href="/blogs.html" class="link link-active">Blogs</a>
+                    <a href="/blogs.html" class="link ">Blogs</a>
                 </li>
             </ul>
-    </nav>
+            <header class = "project-hero">
+                <!-- <img class = "project-hero-image" src="/images/project-hero-image.svg" /> -->
+                <h1 class = "hero-heading">My <span class="heading-inverted">
+                    Blogs <i class="fa-solid fa-pen-nib"></i></span></h1>
+            </header>
+        </nav>
     
-    <header class = "hero">
-        <h1 class = "hero-heading">Nikhil Kumar <span class="heading-inverted">My Blogs</span></h1>
-    </header>
+    <section class=" section ow">
+        <div class="container-center blog-container">
+            <h3>Blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, fuga voluptatem maxime asperiores officiis illum architecto est saepe. Autem sint perspiciatis pariatur ab? Fugiat nisi laboriosam accusantium quis eaque repellat?</p>
+                <a href = "/projects.html" class="link link-primary section-link">Read Blog</a>
+        </div>
+    </section>
+
+    <section class=" section ">
+        <div class="container-center blog-container">
+            <h3>Blog 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, fuga voluptatem maxime asperiores officiis illum architecto est saepe. Autem sint perspiciatis pariatur ab? Fugiat nisi laboriosam accusantium quis eaque repellat?</p>
+                <a href = "/projects.html" class="link link-primary section-link">Read Blog</a>
+        </div>
+    </section>
+
+    <section class=" section ow ">
+        <div class="container-center blog-container">
+            <h3>Blog 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, fuga voluptatem maxime asperiores officiis illum architecto est saepe. Autem sint perspiciatis pariatur ab? Fugiat nisi laboriosam accusantium quis eaque repellat?</p>
+                <a href = "/projects.html" class="link link-primary section-link">Read Blog</a>
+        </div>
+    </section>
 
 </body>
 </html>

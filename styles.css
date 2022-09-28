@@ -51,12 +51,12 @@ a{
     color: var(--secondary-color);
     margin: auto;
 }
-/* .link-secondary{
-    color: var(--primary-color);
-    border-radius: .5rem;
-    border: 1px solid var(--primary-color);
+.link-secondary{
+    color: var(--secondary-color);
+    /* border-radius: .5rem; */
+    /* border: 1px solid var(--primary-color); */
 
-} */
+}
 
 /* lists */
 .list-non-bullet{
@@ -107,11 +107,12 @@ a{
     color: var(--off-white);
     padding: 3rem ;
     margin: auto;
-    border-bottom: 1px solid var(--secondary-color);
     max-width:900px;
     font-size: var(--font-size-lg);
     letter-spacing: 1.5px
-
+}
+.underline{
+    border-bottom: 1px solid var(--secondary-color);
 }
 .heading-inverted{
     color: var(--secondary-color);
@@ -137,7 +138,7 @@ a{
 .section p{
     text-align: center;    
     color: var(--off-white);
-    font-size: 1.1rem;
+    font-size: var(--font-size-sm);
     letter-spacing: .7px;
     margin-bottom: 4rem;
 }
@@ -149,12 +150,13 @@ a{
     padding: 0 10px;
 }
 
-section a:hover{
+.link-primary:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    transition: .5s ease-out;
+    transition: .3s ease-out;
 
 }
+
 /* footers */
 .footer{
     background-color: var(--primary-color);
@@ -190,4 +192,21 @@ section a:hover{
     letter-spacing:  1px;
     margin-top: 2rem;    
     margin-bottom: -1rem;    
+}
+
+/************ projects page ************/
+/* .project-hero-image{
+    max-width: 200px;
+    padding-top: 150px;
+    display: block;
+    margin: auto;
+} */
+.project-date{
+    font-size: 1rem;
+    color: var(--off-white);
+}
+
+/*************blogs page *************/
+.blog-container{
+    margin: 2rem auto;
 }
