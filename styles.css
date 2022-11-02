@@ -139,7 +139,8 @@ a{
     text-align: center;    
     color: var(--off-white);
     font-size: var(--font-size-sm);
-    letter-spacing: .7px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
     margin-bottom: 4rem;
 }
 .section ul{
@@ -183,7 +184,7 @@ a{
     padding: 0 10px;
 }
 .social-icons:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: 1s ease-out;
 }
 
@@ -212,4 +213,12 @@ a{
 /*************blogs page *************/
 .blog-container{
     margin: 2rem auto;
+}
+.blogs-heading{
+    color: var(--secondary-color)!important;
+}
+.blogs-project-date{
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+    align-items: left;
 }
